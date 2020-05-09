@@ -89,15 +89,41 @@
 </div>
 
 
-<div class="row">  
-  <div class="col-md-7" id="olclist"><h3>Buraya ölçüm noktası bilgileri listelenecek.</h3></div>
-    <div class="col-md-5"><h3>Risk Durumu <small><i>Bioinitiative Report 2012'ye göre</i></small></h3>
-    D kademesi için 0.1-0.99 arası; (Kabul edilebilir risk)<br>
-  C kademesi için 1 - 1.99 arası; (Sadece dış ortamlarda kabul edilebilir risk) <br>
-  B kademesi için 2 - 2.99 arası; (İç ortamlar için risk mevcut) <br>
-  A kademesi için 3 ve üzeridir.(Yüksek Risk) </div>
+
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6">
+      <!-- MAPİN OLDUĞU YER -->
+    <div class="Konteynır">
+      <center>
+        <h2>
+
+         Spor 
+
+        </h2>
+      </center>
+    
+   </div>
+
+      </div>
+      <div class="col-md-6" id="bases">
+        <div class="Konteynır">
+        <center>
+          <h3>
+
+           Etkinlikler 
+
+          </h3>
+        </center>
+      </div>
+
+      </div>
+
+      
 </div>
 </div>
+
 
 </body>
 

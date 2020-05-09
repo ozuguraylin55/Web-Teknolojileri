@@ -1,11 +1,3 @@
-<?php 
-session_start(); 
-if(!$_SESSION['logged']){ 
-    header("Location: login.php"); 
-    exit; 
-} 
-//echo 'Welcome, '.$_SESSION['username']; 
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,17 +30,17 @@ if(!$_SESSION['logged']){
 <nav class="navbar" >
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://www.semam.org">SEMAM</a>
+      <a class="navbar-brand" href="http://cs.sakarya.edu.tr/">SAÜ</a>
     </div>
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Anasayfa</a></li>
-        <li><a href="#">KADIKÖY</a></li>
+        <li><a href="#">Özgeçmiş</a></li>
         <li><a href="#">İletişim</a></li> 
-        <li><a href="#">S.S.S.</a></li>      
+        <li><a href="#">Şehir</a></li>   
+        <li><a href="#">Miras</a></li>     
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Başvur </a></li>
         <li><a href="admin.php"><span class="glyphicon glyphicon-log-in"></span> Kullanıcı Girişi</a></li>
       </ul>
     </div>
@@ -56,70 +48,70 @@ if(!$_SESSION['logged']){
 </nav>
 
 <?php
-	echo '<div class="container">';
-	echo '<h1 class="baslik">Tüm baz istasyonları</h1>';
+  echo '<div class="container">';
+  echo '<h1 class="baslik">Tüm baz istasyonları</h1>';
 
-	echo '<table id="tablo" cellspacing="0" class="display table table-striped table-bordered">';
-	echo "<thead>";
-	echo "<tr>";
-			echo "<th>";
-			echo "Makale Adi";
-			echo "</th>";
-			echo "<th>";
-			echo "Dergi Adi";
-			echo "</th>";
-			echo "<th>";
-			echo "Dergi Kategorisi";
-			echo "</th>";
-			echo "<th>";
-			echo "Sayfa";
-			echo "</th>";
-			echo "<th>";
-			echo "ISBN";
-			echo "</th>";
-			echo "<th>";
-			echo "Tarih";
-			echo "</th>";
-			echo "<th>";
-			echo "Sil";
-			echo "</th>";
-			echo "<th>";
-			echo "Düzenle";
-			echo "</th>";
-	echo "</tr>";	
-	echo "</thead>";
-	echo "<tbody>";
+  echo '<table id="tablo" cellspacing="0" class="display table table-striped table-bordered">';
+  echo "<thead>";
+  echo "<tr>";
+      echo "<th>";
+      echo "Makale Adi";
+      echo "</th>";
+      echo "<th>";
+      echo "Dergi Adi";
+      echo "</th>";
+      echo "<th>";
+      echo "Dergi Kategorisi";
+      echo "</th>";
+      echo "<th>";
+      echo "Sayfa";
+      echo "</th>";
+      echo "<th>";
+      echo "ISBN";
+      echo "</th>";
+      echo "<th>";
+      echo "Tarih";
+      echo "</th>";
+      echo "<th>";
+      echo "Sil";
+      echo "</th>";
+      echo "<th>";
+      echo "Düzenle";
+      echo "</th>";
+  echo "</tr>"; 
+  echo "</thead>";
+  echo "<tbody>";
 
-		echo "<tr>";
-		echo "<td>";
-		echo $_POST['MakaleAdi'];
-		echo "</td>";
-		echo "<td>";
-		echo $_POST['DergiAdi'];
-		echo "</td>";
-		echo "<td>";
-		echo $_POST['DergiKategorisi'];
-		echo "</td>";
-		echo "<td>";
-		echo $_POST['Sayfa'];
-		echo "</td>";
-		echo "<td>";
-		echo $_POST['ISBN'];
-		echo "</td>";
-		echo "<td>";
-		echo $_POST['Tarih'];
-		echo "</td>";
-		echo "<td>";
-		echo 'Tasarlanmadi';
-		echo "</td>";
-		echo "<td>";
-		echo 'Tasarlanmadi';
-		echo "</td>";
-	echo "</tr>";
-	echo "</tbody>";
+    echo "<tr>";
+    echo "<td>";
+    echo $_POST['MakaleAdi'];
+    echo "</td>";
+    echo "<td>";
+    echo $_POST['DergiAdi'];
+    echo "</td>";
+    echo "<td>";
+    echo $_POST['DergiKategorisi'];
+    echo "</td>";
+    echo "<td>";
+    echo $_POST['Sayfa'];
+    echo "</td>";
+    echo "<td>";
+    echo $_POST['ISBN'];
+    echo "</td>";
+    echo "<td>";
+    echo $_POST['Tarih'];
+    echo "</td>";
+    echo "<td>";
+    echo 'Tasarlanmadi';
+    echo "</td>";
+    echo "<td>";
+    echo 'Tasarlanmadi';
+    echo "</td>";
+  echo "</tr>";
+  echo "</tbody>";
 
-	echo "</table>";
-	
+  echo "</table>";
+  
 
 
 

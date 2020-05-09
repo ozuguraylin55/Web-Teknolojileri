@@ -1,3 +1,12 @@
+
+<?php 
+session_start(); 
+if(!$_SESSION['logged']){ 
+    header("Location: login.php"); 
+    exit; 
+} 
+//echo 'Welcome, '.$_SESSION['username']; 
+?>
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -31,7 +40,7 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Anasayfa</a></li>
-        <li><a href="#">Özgeçmiş</a></li>
+        <li><a href="#">Hakkımızda</a></li>
         <li><a href="#">İletişim</a></li> 
         <li><a href="#">Şehir</a></li>   
         <li><a href="#">Miras</a></li>     
@@ -51,7 +60,7 @@
       <div class="col-sm-8">
       <!-- MAPİN OLDUĞU YER -->
         <div class="content">
-              <form action="iletisim2.php" id="myForm" method="post" class="basic-grey">
+              <form action="MakaleEkle2.php" method="post" class="basic-grey">
     <h1>Makale bilgileri giriniz</h1>
         <span>*Tüm alanları doldurun.</span>
     </h1>
@@ -92,8 +101,8 @@
     </label> 
         <label>
         <span>&nbsp;</span> 
-        <input type="submit" class="btn btn-primary" value="Gönder" /> 
-        <input type="button" class="btn btn-warning" value="Temizle" onclick="document.getElementById('myForm').reset()" /> 
+        <input type="submit" class="btn btn-danger" value="Gönder" /> 
+        <input type="button" class="btn btn-danger" value="Temizle" /> 
     </label>    
 </form>
           </div>
@@ -106,5 +115,11 @@
 
 </div>
 
+<div class="linkler">
+<a href="admin.php" class="btn btn-info" role="button">Anasayfa</a>
+<a href="BilgiGuncelle.php" class="btn btn-info" role="button">Bilgi Güncelle</a>
+<a href="ProjeEkle.php" class="btn btn-info" role="button">Proje Ekle</a>
+<a href="logout.php" class="btn btn-danger" role="button">Çıkış</a>
+</div>
 </body>
 </html>

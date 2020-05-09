@@ -121,13 +121,14 @@ input[type="password"]{
     -moz-box-shadow: inset 0px 1px 4px #ECECEC;
     -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
 }
-input[type="file"]::-webkit-file-upload-button
-{
-  font: 300 14px  sans-serif;
-  background: #009688;
-  border: 0;
-  padding: 12px 25px;
-  cursor: pointer;
-  color: #fff;
-  text-transform: uppercase;
-}
+
+.meas { 
+    margin-top: 15px;
+    height:600px;
+    width: 1200px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    margin-bottom: 5px;
+    background-color: red;
+} 
+
