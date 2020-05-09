@@ -1,0 +1,53 @@
+#sehir { 
+	margin-top: 15px;
+	height:600px;
+	width: 1200px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    margin-bottom: 5px;
+} 
+/* Info window size (optional) */ 
+.gomapMarker { 
+    display: block; 
+    width: 150px; 
+    height: auto; 
+} 
+.navbar {
+	border-radius: 0px;
+	background-color: #f0f0f0;
+	background-repeat: repeat;
+}
+.navbar-brand{
+	color: #777;
+}
+
+li>a{color: #777;}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size : 140%;
+}
+
+th{
+			color: white;
+			background-color: #1abc9c;
+		}
+.baslik{
+
+}
+
+
+div.DTTT { margin-bottom: 0.5em; float: right; }
+div.dataTables_wrapper { clear: both; }
+div.dataTables_filter {
+		text-align: left;
+}
+
+#butonlar{
+	text-align: center;
+}
+
+#tablo{
+	width: 100%;
+
+}
