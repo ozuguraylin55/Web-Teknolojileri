@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
-<title> Tüm baz istasyonları </title>
+<title> İletişim Sonuç </title>
 
 <!-- BOOTSTRAP and DATATABLES -->
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -19,7 +19,6 @@
 
 
 
-<!-- GOOGLE FONT : OPEN SANS -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
 <script type="text/javascript" language="javascript" src="js/tablo.js"></script>
 
@@ -35,10 +34,10 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Anasayfa</a></li>
-        <li><a href="#">Özgeçmiş</a></li>
-        <li><a href="#">İletişim</a></li> 
-        <li><a href="#">Şehir</a></li>   
-        <li><a href="#">Miras</a></li>     
+        <li><a href="hakkimizda.php">Özgeçmiş</a></li>
+        <li><a href="iletisim.php">İletişim</a></li> 
+        <li><a href="sehir.php">Şehir</a></li>   
+        <li><a href="miras.php">Miras</a></li>     
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="admin.php"><span class="glyphicon glyphicon-log-in"></span> Kullanıcı Girişi</a></li>
@@ -49,28 +48,28 @@
 
 <?php
   echo '<div class="container">';
-  echo '<h1 class="baslik">Tüm baz istasyonları</h1>';
+  echo '<h1 class="baslik">İletişim Sonuç</h1>';
 
   echo '<table id="tablo" cellspacing="0" class="display table table-striped table-bordered">';
   echo "<thead>";
   echo "<tr>";
       echo "<th>";
-      echo "Makale Adi";
+      echo "Isim";
       echo "</th>";
       echo "<th>";
-      echo "Dergi Adi";
+      echo "Soyisim";
       echo "</th>";
       echo "<th>";
-      echo "Dergi Kategorisi";
+      echo "Konu";
       echo "</th>";
       echo "<th>";
-      echo "Sayfa";
+      echo "E-Mail";
       echo "</th>";
       echo "<th>";
-      echo "ISBN";
+      echo "Meslek";
       echo "</th>";
       echo "<th>";
-      echo "Tarih";
+      echo "Yorum";
       echo "</th>";
       echo "<th>";
       echo "Sil";
@@ -84,22 +83,22 @@
 
     echo "<tr>";
     echo "<td>";
-    echo $_POST['MakaleAdi'];
+    echo $_POST['Isim'];
     echo "</td>";
     echo "<td>";
-    echo $_POST['DergiAdi'];
+    echo $_POST['Soyisim'];
     echo "</td>";
     echo "<td>";
-    echo $_POST['DergiKategorisi'];
+    echo $_POST['konu'];
     echo "</td>";
     echo "<td>";
-    echo $_POST['Sayfa'];
+    echo $_POST['e-mail'];
     echo "</td>";
     echo "<td>";
-    echo $_POST['ISBN'];
+    echo $_POST['dropmenu'];
     echo "</td>";
     echo "<td>";
-    echo $_POST['Tarih'];
+    echo $_POST['comment'];
     echo "</td>";
     echo "<td>";
     echo 'Tasarlanmadi';
@@ -111,19 +110,8 @@
   echo "</tbody>";
 
   echo "</table>";
-  
-
-
-
-
 ?>
 <hr>
-<div id="butonlar">
-<a href="admin.php" class="btn btn-info" role="button">Anasayfa</a>
-<a href="excel_import.php" class="btn btn-info" role="button">Excel Import</a>
-<a href="add_bs.php" class="btn btn-info" role="button">Baz Ekle</a>
-<a href="logout.php" class="btn btn-danger" role="button">Çıkış</a>
-</div>
 </div>
 
 

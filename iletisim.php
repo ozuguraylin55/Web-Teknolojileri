@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-  <title>Makale Ekle</title>
+  <title>İletişim</title>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
 <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script> 
 <script type="text/javascript" src="js/jquery.gomap-1.3.3.min.js"></script>
@@ -18,6 +18,27 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["Isim"].value;
+  var y = document.forms["myForm"]["Soyisim"].value;
+  var z = document.forms["myForm"]["e-mail"].value;
+  var a = document.forms["myForm"]["comment"].value;
+  if (x == "" || y == "" || z == "" || a == "") {
+    alert("Form'da zorunlu olan yerler doldurulmalıdır");
+    return false;
+  }
+
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(z))
+  {
+    return (true)
+  }
+    alert("E-Mail adresini doğru doldurmanız gerekiyor")
+    return (false)
+
+
+}
+</script>
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles.css">
 
@@ -31,10 +52,10 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Anasayfa</a></li>
-        <li><a href="#">Özgeçmiş</a></li>
-        <li><a href="#">İletişim</a></li> 
-        <li><a href="#">Şehir</a></li>   
-        <li><a href="#">Miras</a></li>     
+        <li><a href="hakkimizda.php">Özgeçmiş</a></li>
+        <li><a href="iletisim.php">İletişim</a></li> 
+        <li><a href="sehir.php">Şehir</a></li>   
+        <li><a href="miras.php">Miras</a></li>     
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="admin.php"><span class="glyphicon glyphicon-log-in"></span> Kullanıcı Girişi</a></li>
@@ -51,44 +72,46 @@
       <div class="col-sm-8">
       <!-- MAPİN OLDUĞU YER -->
         <div class="content">
-              <form action="iletisim2.php" id="myForm" method="post" class="basic-grey">
-    <h1>Makale bilgileri giriniz</h1>
-        <span>*Tüm alanları doldurun.</span>
+    <form action="iletisim2.php" id="myForm" id="name" method="post" class="basic-grey" onsubmit="return validateForm()" >
+    <h1>İletişim bilgilerini giriniz</h1>
+        <span>*Zorunlu alanlar</span>
     </h1>
     <label>
-        <span>Makale Adı:</span>
-        <input id="MakaleAdi" type="text" name="MakaleAdi" placeholder="Makale Adı" />
-        <input type="checkbox" checked />
+        <span>İsim(*):</span>
+        <input id="Isim" type="text" name="Isim" placeholder="İsim" />
     </label>
 
     <label>
-        <span>Dergi Adı:</span>
-        <input id="DergiAdi" type="text" name="DergiAdi" placeholder="Dergi Adı" />
-        <input type="checkbox" checked />
+        <span>Soyisim(*):</span>
+        <input id="Soyisim" type="text" name="Soyisim" placeholder="Soyisim" />
     </label>
 
     <label>
-        <span>Dergi Kategorisi:</span>
-        <input id="DergiKategorisi" type="text" name="DergiKategorisi" placeholder="Dergi Kategorisi" />
-        <input type="checkbox" checked />
+        <span>Mesaj Konusu:</span>
+        <input id="konu" type="text" name="konu" placeholder="Mesaj Konusu"/>
     </label>
     
     <label>
-        <span>Sayfa:</span>
-        <input id="Sayfa" type="text" name="Sayfa" placeholder="Sayfa" />
-        <input type="checkbox" checked />
+        <span>E-Mail(*):</span>
+        <input id="e-mail" type="text" name="e-mail" placeholder="E-Mail" />
     </label>
   
      <label>
-        <span>ISBN:</span>
-        <input id="ISBN" type="text" name="ISBN" placeholder="ISBN" />
-        <input type="checkbox" checked />
+        <span>Meslek:</span>
+        <div class="form-group">
+          <select class="form-control" id="dropmenu" name="dropmenu" >
+            <option>Bilgisayar Muhendisi</option>
+            <option>Elektronik Muhendisi</option>
+            <option>Yazılım Mühendisi</option>
+            <option>Makine Mühendisi</option>
+            <option>Diğer</option>
+          </select>
+        </div>
     </label> 
 
     <label>
-        <span>Tarih:</span>
-        <input id="Tarih" type="text" name="Tarih" placeholder="Tarih" />
-        <input type="checkbox" checked />
+        <span>Mesaj(*):</span>
+        <textarea class="form-control" rows="5" name="comment" id="comment"></textarea>
     </label> 
         <label>
         <span>&nbsp;</span> 

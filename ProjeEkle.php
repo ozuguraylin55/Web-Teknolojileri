@@ -65,13 +65,13 @@ if(!$_SESSION['logged']){
         <span>*Tüm alanları doldurun.</span>
     </h1>
     <label>
-        <span>Makale Adı:</span>
+        <span>Proje Adı:</span>
         <input id="MakaleAdi" type="text" name="MakaleAdi" placeholder="Makale Adı" />
         <input type="checkbox" checked />
     </label>
 
     <label>
-        <span>Dergi Adı:</span>
+        <span>Proje Konusu:</span>
         <input id="DergiAdi" type="text" name="DergiAdi" placeholder="Dergi Adı" />
         <input type="checkbox" checked />
     </label>

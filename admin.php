@@ -1,3 +1,11 @@
+<?php 
+session_start(); 
+if(!$_SESSION['logged']){ 
+    header("Location: login.php"); 
+    exit; 
+} 
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,10 +33,10 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Anasayfa</a></li>
-        <li><a href="#">Hakkımızda</a></li>
-        <li><a href="#">İletişim</a></li> 
-        <li><a href="#">Şehir</a></li>   
-        <li><a href="#">Miras</a></li>     
+        <li><a href="hakkimizda.php">Özgeçmiş</a></li>
+        <li><a href="iletisim.php">İletişim</a></li> 
+        <li><a href="sehir.php">Şehir</a></li>   
+        <li><a href="miras.php">Miras</a></li>     
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="admin.php"><span class="glyphicon glyphicon-log-in"></span> Kullanıcı Girişi</a></li>
@@ -37,13 +45,6 @@
   </div>
 </nav>
 
-<?php 
-session_start(); 
-if(!$_SESSION['logged']){ 
-    header("Location: login.php"); 
-    exit; 
-} 
-?>
 
 
 <h3> Hoşgeldiniz, <?php echo $_SESSION['username']?></h3>
@@ -66,12 +67,12 @@ if(!$_SESSION['logged']){
   <div class="col-md-4">
   <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Okul Bilgileri</h3>
+    <h3 class="panel-title">Makaleler</h3>
   </div>
   <div class="panel-body">
-     <p>Okul No: ***********</p>
-     <p>Kayıt Tarihi: 2013</p>
-     <p>Durumu: Aktif</p>
+     1. <a href="#">Makine Öğrenmesi ile Yüz Tanıma</a><br>
+     2. <a href="#">Nesnelerin İnterneti ile Enerji </a><br>
+
   </div>
   </div>
   </div>
@@ -90,42 +91,6 @@ if(!$_SESSION['logged']){
   </div>
   </div>
   </div>
-
-  <div class="col-md-4">
-  <div class="panel panel-info">
-  <div class="panel-heading">
-    <h3 class="panel-title">Ölçüm Ekle</h3>
-  </div>
-  <div class="panel-body">
-         1. <a href="add_points.php">Kadıköy/İSTANBUL</a><br>
-         2. <a href="add_points_nil.php">Nilüfer/BURSA</a><br>
-		     3. <a href="add_points_maltepe.php">Maltepe/İSTANBUL</a>
-  </div>
-  </div>
-  </div>
-
-  <div class="col-md-4">
-  <div class="panel panel-info">
-  <div class="panel-heading">
-    <h3 class="panel-title">Kadıköy Toplam Ölçüm Sayısı</h3>
-  </div>
-  <div class="panel-body">
-          | <a href="fetch_p.php">Ölçümleri Gör</a>
-  </div>
-  </div>
-  </div>
-
-  <div class="col-md-4">
-  <div class="panel panel-info">
-  <div class="panel-heading">
-    <h3 class="panel-title">Nilüfer Toplam Ölçüm Sayısı</h3>
-  </div>
-  <div class="panel-body">
-         | <a href="fetch_p_nil.php">Ölçümleri Gör</a>
-  </div>
-  </div>
-  </div>
-
 </div>
 
 <a href="BilgiGuncelle.php" class="btn btn-info" role="button">Bilgi Güncelle</a>

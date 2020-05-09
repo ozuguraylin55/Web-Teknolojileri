@@ -85,9 +85,7 @@
          <p> Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. </p>
          <h3><p> <b>Kullanıcı adı:</b> U111210044 </p>
          <p> <b>Şifre:</b>  123 </p></h3>
-
-      
-    
+ 
    </div>
 
       </div>

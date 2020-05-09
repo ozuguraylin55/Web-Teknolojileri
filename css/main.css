@@ -64,3 +64,12 @@ div.dataTables_filter {
     background-color: #f0f0f0;
     margin-bottom: 5px;
 } 
+
+.MirasKonteynır { 
+	margin-top: 15px;
+	height:auto;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+} 

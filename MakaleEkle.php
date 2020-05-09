@@ -101,7 +101,7 @@ if(!$_SESSION['logged']){
     </label> 
         <label>
         <span>&nbsp;</span> 
-        <input type="submit" class="btn btn-danger" value="Gönder" /> 
+        <input type="submit" class="btn btn-primary btn-lg" value="Gönder" /> 
         <input type="button" class="btn btn-danger" value="Temizle" /> 
     </label>    
 </form>

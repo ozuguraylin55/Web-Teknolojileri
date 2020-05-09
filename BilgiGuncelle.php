@@ -60,7 +60,7 @@ if(!$_SESSION['logged']){
       <div class="col-sm-8">
       <!-- MAPİN OLDUĞU YER -->
         <div class="content">
-              <form action="MakaleEkle2.php" method="post" class="basic-grey">
+              <form action="BilgiGuncelle2.php" method="post" class="basic-grey">
     <h1>Makale bilgileri giriniz</h1>
         <span>*Tüm alanları doldurun.</span>
     </h1>
