@@ -84,7 +84,7 @@ footer{
 #altfooter {
    bottom:0;
    width:100%;
-   height:50px;   /* footer yüksekliği */
+   height:30px;   /* footer yüksekliği */
    background:#666;
    text-align:center;
 }
