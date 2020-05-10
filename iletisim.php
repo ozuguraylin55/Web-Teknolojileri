@@ -129,7 +129,7 @@ function validateForm() {
 </div>
 
 <footer id="altfooter">
-    Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.
+    Copyright 2020 Aylin Özuğur | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.
 </footer>
 
 </body>

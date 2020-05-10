@@ -116,7 +116,7 @@ if(!$_SESSION['logged']){
 </div>
 
 <footer id="altfooter">
-<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+<p>Copyright 2020 Aylin Özuğur | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
 </footer>
 
 </body>
