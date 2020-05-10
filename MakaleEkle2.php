@@ -38,14 +38,15 @@ if(!$_SESSION['logged']){
 <nav class="navbar" >
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://www.semam.org">SEMAM</a>
+      <a class="navbar-brand" href="https://www.sakarya.edu.tr/">SAU</a>
     </div>
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Anasayfa</a></li>
-        <li><a href="#">KADIKÖY</a></li>
-        <li><a href="#">İletişim</a></li> 
-        <li><a href="#">S.S.S.</a></li>      
+        <li><a href="hakkimizda.php">Hakkımızda</a></li>
+        <li><a href="iletisim.php">İletişim</a></li> 
+        <li><a href="sehir.php">Şehir</a></li>
+        <li><a href="miras.php">Miras</a></li>      
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Başvur </a></li>
@@ -57,7 +58,7 @@ if(!$_SESSION['logged']){
 
 <?php
 	echo '<div class="container">';
-	echo '<h1 class="baslik">Tüm baz istasyonları</h1>';
+	echo '<h1 class="baslik">MAKALELER</h1>';
 
 	echo '<table id="tablo" cellspacing="0" class="display table table-striped table-bordered">';
 	echo "<thead>";
@@ -127,12 +128,14 @@ if(!$_SESSION['logged']){
 ?>
 <hr>
 <div id="butonlar">
-<a href="admin.php" class="btn btn-info" role="button">Anasayfa</a>
-<a href="excel_import.php" class="btn btn-info" role="button">Excel Import</a>
-<a href="add_bs.php" class="btn btn-info" role="button">Baz Ekle</a>
-<a href="logout.php" class="btn btn-danger" role="button">Çıkış</a>
+<a href="admin.php" class="btn btn-warning" role="button">Admin Sayfam</a>
+<a href="logout.php" class="btn btn-warning" role="button">Çıkış</a>
 </div>
 </div>
 
+<footer id="altfooter">
+<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
 
 </body>
+</html>

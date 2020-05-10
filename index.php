@@ -65,24 +65,18 @@
       <!-- MAPİN OLDUĞU YER -->
     <div class="Kont">
       <center>
-        <h2> Kişisel Bilgiler </h2>
+        <h1> Kişisel Bilgiler </12>
       </center>
-         <p> Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-         Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-       Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-     Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-   Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.</p> 
-   <p> Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-         Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-       Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-     Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-   Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.</p> 
-   <p> Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-         Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-       Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-     Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.
-   Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz.</p> 
-         <p> Kullanıcı girişi için aşağıdaki kullanıcı adı ve şifreyi kullanabilirsiniz. </p>
+         
+         <h3>   Ben 1993'te İstanbul'da ailenin ilk çocuğu olarak dünyaya gelmişim. Babam Samsun'da (1969) doğmuş ve küçük yaşta hem anne hem babasını kaybettiği için İstanbul'a abilerinin yanına gelmiş; şoför olarak çalışmaya başlamış. Annem ise İstanbul'da(1975) doğmuş; lise öğrenimini tamamladıktan sonra evlenmiş ve ev hanımı olarak hayatına devam etmiş. </h3>
+
+        <h3>  1998 yılında İstanbul Bağcılar'da ilköğretime, 2006 da ise yine Bağcılar Osmangazi Lisesi'nde başladığım eğitimimi 2010 yılında tamamladım.</h3>
+
+        <h3>  Üniversite öğrenimine ise 2010 yılında Sinop Üniversitesi Matematik Bölümü'nde 1 yıl okuduktan sonra; 2011 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü'nde eğitimime başladım.</h3>
+
+        <h3>  Okurken çalışmak zorunda kalan öğrencilerden olduğum için de  dershanelerde stajyer öğretmenlik(Matematik,Geometri), Lc Waikiki Mağazası'nda kasiyerlik yaptım. Son olarakta 2014 yılında İSKİ'de yaptığım staj doltusunda bulduğum ve hala çalışmakta olduğum Beyaz Net (2015) firmasında Linux Sistem Yöneticisi olarak görev almaktayım. Babam 2015 te son olarak çalıştığı bir kargo firmasının tırında şoförlük yaparken yaptığı trafik kazası sonucu hayatını kaybetti. </h3>
+        <h3>Evliyim ve işime severek devam ediyorum.</h3>
+ 
          <h3><p> <b>Kullanıcı adı:</b> U111210044 </p>
          <p> <b>Şifre:</b>  123 </p></h3>
  
@@ -112,6 +106,10 @@
 
 </div>
 </div>
+
+<footer id="altfooter">
+<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
 
 </body>
 

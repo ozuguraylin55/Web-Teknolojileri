@@ -93,13 +93,14 @@ if(!$_SESSION['logged']){
   </div>
 </div>
 
-<a href="BilgiGuncelle.php" class="btn btn-info" role="button">Bilgi Güncelle</a>
-<a href="ProjeEkle.php" class="btn btn-info" role="button">Proje Ekle</a>
-<a href="MakaleEkle.php" class="btn btn-info" role="button">Makale Ekle</a>
-<a href="logout.php" class="btn btn-danger" role="button">Çıkış</a>
+<a href="ProjeEkle.php" class="btn btn-warning" role="button">Proje Ekle</a>
+<a href="MakaleEkle.php" class="btn btn-warning" role="button">Makale Ekle</a>
+<a href="logout.php" class="btn btn-warning" role="button">Çıkış</a>
 </div>
 
-
+<footer id="altfooter">
+<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
 
 </body>
 </html>

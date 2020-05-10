@@ -97,19 +97,19 @@
           </thead>
           <tbody>
             <tr>
-              <td>Cahitzarifoğlu İlkokulu</td>
+              <td>Bağcılar İlkokulu</td>
               <td>2000</td>
               <td>2004</td>
               <td>100</td>
             </tr>
             <tr>
-              <td>Cahitzarifoğlu Ortaokulu</td>
+              <td>Bağcılar Ortaokulu</td>
               <td>2004</td>
               <td>2008</td>
               <td>100</td>
             </tr>
             <tr>
-              <td>Başakşehir Lisesi</td>
+              <td>Bağcılar Lisesi</td>
               <td>2008</td>
               <td>2012</td>
               <td>81</td>
@@ -251,6 +251,10 @@
 
 </div>
 </div>
+
+<footer id="altfooter">
+<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
 
 </body>
 </html>

@@ -84,7 +84,7 @@
 
       <div class="item">
         <a href="https://www.samsun.com.tr/moduller.aspx?modul=ortak-kultur-sanat#.XrbRomgzaUk">
-          <img src="img/thirdSlider.png" alt="sdsd" style="width:100%;"></a>
+          <img src="img/fourthSlider.png" alt="sdsd" style="width:100%;"></a>
       </div>
     </div>
 
@@ -205,6 +205,9 @@
 </div>
 </div>
 
+<footer id="altfooter">
+<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
 
 </body>
 

@@ -97,5 +97,10 @@ if(!$_SESSION['logged']){
 <div class="linkler">
 <a href="admin.php" class="btn btn-primary" role="button">Anasayfa</a>
 </div>
+
+<footer>
+<p>Copyright 2020 Aylin Özoğuz | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
+
 </body>
 </html>

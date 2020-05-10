@@ -67,41 +67,41 @@ if(!$_SESSION['logged']){
     <label>
         <span>Makale Adı:</span>
         <input id="MakaleAdi" type="text" name="MakaleAdi" placeholder="Makale Adı" />
-        <input type="checkbox" checked />
+        
     </label>
 
     <label>
         <span>Dergi Adı:</span>
         <input id="DergiAdi" type="text" name="DergiAdi" placeholder="Dergi Adı" />
-        <input type="checkbox" checked />
+        
     </label>
 
     <label>
         <span>Dergi Kategorisi:</span>
         <input id="DergiKategorisi" type="text" name="DergiKategorisi" placeholder="Dergi Kategorisi" />
-        <input type="checkbox" checked />
+        
     </label>
     
     <label>
         <span>Sayfa:</span>
         <input id="Sayfa" type="text" name="Sayfa" placeholder="Sayfa" />
-        <input type="checkbox" checked />
+        
     </label>
   
      <label>
         <span>ISBN:</span>
         <input id="ISBN" type="text" name="ISBN" placeholder="ISBN" />
-        <input type="checkbox" checked />
+        
     </label> 
 
     <label>
         <span>Tarih:</span>
         <input id="Tarih" type="text" name="Tarih" placeholder="Tarih" />
-        <input type="checkbox" checked />
+       
     </label> 
         <label>
         <span>&nbsp;</span> 
-        <input type="submit" class="btn btn-primary btn-lg" value="Gönder" /> 
+        <input type="submit" class="btn btn-danger" value="Gönder" /> 
         <input type="button" class="btn btn-danger" value="Temizle" /> 
     </label>    
 </form>
@@ -116,10 +116,14 @@ if(!$_SESSION['logged']){
 </div>
 
 <div class="linkler">
-<a href="admin.php" class="btn btn-info" role="button">Anasayfa</a>
-<a href="BilgiGuncelle.php" class="btn btn-info" role="button">Bilgi Güncelle</a>
-<a href="ProjeEkle.php" class="btn btn-info" role="button">Proje Ekle</a>
-<a href="logout.php" class="btn btn-danger" role="button">Çıkış</a>
+<a href="admin.php" class="btn btn-warning" role="button">Admin Sayfam</a>
+<a href="ProjeEkle.php" class="btn btn-warning" role="button">Proje Ekle</a>
+<a href="logout.php" class="btn btn-warning" role="button">Çıkış</a>
 </div>
+
+<footer id="altfooter">
+<p>Copyright 2020 Aylin Özuğur | SAKARYA ÜNİVERSİTESİ | Tüm haklar saklıdır.</p>
+</footer>
+
 </body>
 </html>
